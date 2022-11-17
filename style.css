@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;700&display=swap');
+
+
+body {
+  background-color: #FFFDF2;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+#pagetitle {
+  font-size: 4em;
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+}
+
+.contentDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 1vmin;
+  border: 2px solid;
+  border-radius: 0.25vmin;
+  height: 100%;
+}
+.newContentTitle {
+   font-weight: 500;
+ }
+
+.newContentArtistName, .newContentDOB, .newContentGenre, .newContentSong {
+  font-weight: 300;
+}
