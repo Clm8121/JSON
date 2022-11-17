@@ -13,6 +13,14 @@ body {
   font-weight: 700;
 }
 
+#outputElement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+}
+
 .contentDiv {
   display: flex;
   flex-direction: column;
