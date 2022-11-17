@@ -28,3 +28,8 @@ body {
 .newContentArtistName, .newContentDOB, .newContentGenre, .newContentSong {
   font-weight: 300;
 }
+
+.newContentImage {
+  width: 40vw;
+  height: 100%;
+}

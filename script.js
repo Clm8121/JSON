@@ -6,7 +6,7 @@ let contentGridElement = document.getElementById('contentGrid');
 let jsonDatabase = [
   {
   "title" : "Artist #1",
-  "picture_url" : "",
+  "picture_url" : "https://impact89fm.org/wp-content/uploads/2018/10/joji.jpg",
   "artistName" : "Joji",
   "dateOfBirth" : "September 18, 1992",
   "genre" : "Trip Hop / R&B Soul",
@@ -15,8 +15,8 @@ let jsonDatabase = [
   },
   {
   "title" : "Artist #2",
-  "picture_url" : "",
-  "artistName" : "DEAN (Kwon Hyuk)",
+  "picture_url" : "https://image.bugsm.co.kr/artist/images/1000/802413/80241323.jpg",
+  "artistName" : "DEAN",
   "dateOfBirth" : "November 10, 1992",
   "genre" : "Alternative R&B / Soul",
   "topSong" : "'instagram'",
@@ -24,7 +24,7 @@ let jsonDatabase = [
   },
   {
   "title" : "Artist #3",
-  "picture_url" : "",
+  "picture_url" : "https://www.rollingstone.co.uk/wp-content/uploads/sites/2/2022/08/2JT7DAX-1024x683.jpg",
   "artistName" : "Oliver Sykes 'Bring Me the Horizon'",
   "dateOfBirth" : "November 20, 1986",
   "genre" : "Meltalcore",
@@ -33,7 +33,7 @@ let jsonDatabase = [
   },
   {
   "title" : "Artist #4",
-  "picture_url" : "",
+  "picture_url" : "https://i.guim.co.uk/img/media/cdcb28691f72ece200542f1961985c12ab9a988c/0_74_3000_1800/master/3000.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=f3d0f9e708c8258f67a7144f6aa173d5",
   "artistName" : "Lil Peep",
   "dateOfBirth" : "November 1, 1996 - November 15, 2017",
   "genre" : "Rap / Trap / Emo Pop",
@@ -42,7 +42,7 @@ let jsonDatabase = [
   },
   {
   "title" : "Artist #5",
-  "picture_url" : "",
+  "picture_url" : "https://i.pinimg.com/originals/84/60/05/8460055c9296323354e8164664bc1ba7.jpg",
   "artistName" : "Danny (Dan) Avidan 'Ninja Sex Party'",
   "dateOfBirth" : "March 14, 1979",
   "genre" : "Rock / Comedy",
