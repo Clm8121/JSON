@@ -53,15 +53,16 @@ let jsonDatabase = [
 
 for (let i = 0; i < jsonDatabase.length; i++) {
   createElement(jsonDatabase[i]);
+  }
 
   function createElement(incomingJSON) {
     let newContentElement = document.createElement("DIV");
-    newContentElement.style.backgroundcolor = incomingJSON['backgroundcolor'];
+    newContentElement.style.backgroundColor = incomingJSON['backgroundcolor'];
     newContentElement.classList.add('contentDiv');
 
-    let newContentTitle = document.createElement("TITLE");
+    let newContentTitle = document.createElement("H2");
     newContentTitle.classList.add("contentTitle");
-    newContentTitle.src = incomingJSON["title"];
+    newContentTitle.innerText = incomingJSON["title"];
     newContentElement.appendChild(newContentTitle);
 
     let newContentImage = document.createElement("IMG");
@@ -69,26 +70,25 @@ for (let i = 0; i < jsonDatabase.length; i++) {
     newContentImage.src = incomingJSON["picture_url"];
     newContentElement.appendChild(newContentImage);
 
-    let newContentArtistName = document.createElement("NAME");
+    let newContentArtistName = document.createElement("H2");
     newContentArtistName.classList.add("contentArtistName");
-    newContentArtistName.src = incomingJSON["artistName"];
+    newContentArtistName.innerText = incomingJSON["artistName"];
     newContentElement.appendChild(newContentArtistName);
 
-    let newContentDOB = document.createElement("DOB");
+    let newContentDOB = document.createElement("H2");
     newContentDOB.classList.add("contentDOB");
-    newContentDOB.src = incomingJSON["dateOfBirth"];
+    newContentDOB.innerText = incomingJSON["dateOfBirth"];
     newContentElement.appendChild(newContentDOB);
 
-    let newContentGenre = document.createElement("genre");
+    let newContentGenre = document.createElement("H2");
     newContentGenre.classList.add("contentGenre");
-    newContentGenre.src = incomingJSON["genre"];
+    newContentGenre.innerText = incomingJSON["genre"];
     newContentElement.appendChild(newContentGenre);
 
-    let newContentSong = document.createElement("Song");
+    let newContentSong = document.createElement("H2");
     newContentSong.classList.add("contentSong");
-    newContentSong.src = incomingJSON["topSong"];
+    newContentSong.innerText = incomingJSON["topSong"];
     newContentElement.appendChild(newContentSong);
-    }
 
-  contentGridElement.appendChild(newContentElement);
-  }
+    contentGridElement.appendChild(newContentElement);
+    }
